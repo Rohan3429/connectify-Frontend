@@ -121,3 +121,13 @@ export const deleteResume = async (id) => {
   });
   return response.json();
 };
+
+export const fetchMessages = async () => {
+  const response = await fetch(`${API_URL}/chat`, {
+    headers: {
+      'Authorization': `Bearer ${localStorage.getItem('token')}`
+    }
+  });
+  return response.json();
+};
+
