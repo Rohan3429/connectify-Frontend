@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Chat from './pages/Chat';
 import ResumeBuilder from './pages/ResumeBuilder';
 import ResumeViewer from './pages/ResumeViewer';
-import About from './pages/about';
+import About from './pages/About';
 
 function App() {
   const [user, setUser] = useState(
