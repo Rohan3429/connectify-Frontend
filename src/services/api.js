@@ -22,7 +22,6 @@
 
 const API_URL = 'https://connectify-backend-bj3b.onrender.com';
 
-// const API_URL = import.meta.env.VITE_API_URL;
 
 export const registerUser = async (userData) => {
   const response = await fetch(`${API_URL}/auth/register`, {
